@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Hamada Santino" />
+    <meta name="description" content="pagina de cryptofin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Cryptofin</title>
+  </head>
+  <body class=" ">
+    <header class="">
+      <nav class="navbar navbar-expand-lg bg-primary-subtle">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Cryptofin</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#opcionesMenu"
+            aria-controls="opcionesMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="opcionesMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Preguntas frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Robo o extravio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="">
+      <section id="carouselCryptofin" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselCryptofin" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselCryptofin" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselCryptofin" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img  src="./img/banner/crypto.jpeg" class="d-block w-100 bannerImg" alt="cryptomonedas">
+            <div class="carousel-caption d-none d-md-block text-light bg-dark bg-opacity-75 rounded-3">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img  src="./img/banner/atencion.jpg" class="d-block w-100 bannerImg" alt="atencion al cliente">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img  src="./img/banner/inversion.jpg" class="d-block w-100 bannerImg" alt="inversiones">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCryptofin" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCryptofin" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+    </main>
+    <footer class="bg-dark-subtle text-center py-3"> 
+      <p>&copy;Todos los derechos reservados</p>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
