@@ -8,6 +8,25 @@
   }
   
 .bannerImg{
-    max-height: 350px;
+    max-height: 200px;
     object-fit: cover;
 }
+
+@media (min-width: 768px) { 
+
+  .bannerImg{
+    max-height: 450px;
+  }
+}
+@media (min-width: 992px) { 
+
+  .bannerImg{
+    max-height: 550px;
+  }
+}
+@media (min-width: 1400px) {
+
+  .bannerImg{
+    max-height: 650px;
+  }
+ }
